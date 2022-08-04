@@ -1,0 +1,72 @@
+#fullpage {
+    height: 100%;
+    text-align: center;
+    /* padding: 0 !important; */
+}
+
+/*star css */
+.star {
+    visibility: hidden;
+    font-size: 29px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 2px !important;
+}
+.star:before {
+    content: "\2605";
+    position: absolute;
+    visibility: visible;
+    color: #d08411;
+    margin-right: 31px;
+    top: -10px;
+}
+.star:checked:before {
+   content: "\2606";
+   position: absolute;
+}
+
+.survey-form {
+ 
+    box-shadow: 0 0 2px 2px #80808054;
+    padding: 4%;
+   
+}
+header.headname {
+    color: #000000c2;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 9px;
+}
+.form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+p {
+    text-align: left;
+    font-size: 12px;
+    line-height: 3;
+}
+table.table.table-bordered.table-striped {
+    text-align: center;
+    font-size: 12px;
+}
+button#submit {
+    text-align: left;
+    float: left;
+    border-radius: 0;
+    background: #80808087;
+    border: none;
+    text-transform: capitalize;
+    color: #000;
+}
+th.theadlist {
+    text-align: left;
+}
+sup {
+    top: -2px;
+    color: rgb(50, 24, 24);
+}
+.labels {
+    font-size: 12px;
+    margin-left: 7px;
+}
